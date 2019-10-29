@@ -10,11 +10,47 @@
 <body>
 
 <header class="header">
-    
+    <div class="container">
+        <img src="dist/images/nerds-logo.svg" alt="Логотип сайта" class="logo">
+        <nav class="header__nav">
+            <ul class="header__links-list">
+                <li class="nav__item">
+                    <a href="#" class="nav__link">Студия</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">Клиенты</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">Магазин</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <ul class="right-nav">
+            <li class="right-nav__item">
+                <a href="#" class="right-nav__link">Корзина</a>
+            </li>
+        </ul>
+    </div>
 </header>
 
 <main>
     <section class="slogan">
+        <p class="h2">Долго, дорого, скрупулезно.</p>
+        <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+        <a href="" class="button button-danger slogan__button">Узнать больше</a>
+        <div class="slider">
+            <img src="dist/images/slide-1.png" alt="Слайд №1" class="slider__image image-1">
+            <ul class="slider__toggles-list">
+                <li class="slider__toggle">
+                    <input type="radio" class="toggle_radio slide_1" name="slider">
+                    <input type="radio" class="toggle_radio slide_2" name="slider">
+                    <input type="radio" class="toggle_radio slide_3" name="slider">
+                </li>
+            </ul>
+        </div>
     </section>
 
     <ul class="services">
