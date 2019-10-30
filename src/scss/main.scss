@@ -1,20 +1,15 @@
 body {
   background-color: #fff;
   color: #000;
-  font-family: Roboto;
-  font-weight: 400;
+  font: normal 400 normal 16px Roboto;
 }
 
 .container {
-  max-width: 1170px;
-  width: 95%;
+  max-width: 1200px;
+  width: auto;
+  padding: 0 20px;
   margin: 0 auto;
   outline: 1px solid red;
-}
-
-.header {
-  background-color: #eee;
-  min-height: 120px;
 }
 
 .visually-hidden {
@@ -31,3 +26,4 @@ body {
 
 
 @import "fonts";
+@import "header/header";

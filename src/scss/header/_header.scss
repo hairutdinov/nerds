@@ -1,0 +1,19 @@
+.header {
+  padding-top: 48px;
+  padding-bottom: 15px;
+  background-color: #eee;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    width: 140px;
+    height: 49px;
+  }
+}
+
+@import "header__nav/_";
+@import "right_nav/_";
