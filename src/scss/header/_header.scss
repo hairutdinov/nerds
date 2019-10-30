@@ -1,7 +1,7 @@
 .header {
   padding-top: 48px;
   padding-bottom: 15px;
-  background-color: #eee;
+  background-color: $gray;
 
   .container {
     display: flex;
@@ -10,8 +10,8 @@
   }
 
   &__logo {
-    width: 140px;
-    height: 49px;
+    width: 160px;
+    height: 65px;
   }
 }
 

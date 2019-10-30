@@ -1,0 +1,22 @@
+.slogan {
+  background: $gray;
+  min-height: 415px;
+
+  .container {
+    display: flex;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__button {
+    width: 240px;
+    height: 50px;
+  }
+
+}
+
+@import "slider/_";
+@import "left-block";

@@ -1,0 +1,11 @@
+.slider {
+  flex: 0 1 760px;
+  position: relative;
+
+  &__image {
+    width: 100%;
+  }
+}
+
+@import "slider__toggles-list";
+@import "slider__toggle";

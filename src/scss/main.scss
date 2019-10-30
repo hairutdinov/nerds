@@ -4,6 +4,14 @@ body {
   font: normal 400 normal 16px Roboto;
 }
 
+img {
+  max-width: 100%;
+}
+
+.h2 {
+  font: normal 500 normal 55px/55px Roboto;
+}
+
 .container {
   max-width: 1200px;
   width: auto;
@@ -26,4 +34,9 @@ body {
 
 
 @import "fonts";
+@import "colors";
+/* COMPONENTS */
+@import "button/_";
+/* BLOCKS */
 @import "header/header";
+@import "main/_";
