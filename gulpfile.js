@@ -70,10 +70,7 @@ function watch() {
 gulp.task('styles', styles);
 gulp.task('scripts', scripts);
 
-gulp.task('build', gulp.series(
-    clean,
-    gulp.parallel('styles', 'scripts')
-));
+gulp.task('build', gulp.parallel('styles', 'scripts'));
 
 gulp.task('watch', watch);
 
