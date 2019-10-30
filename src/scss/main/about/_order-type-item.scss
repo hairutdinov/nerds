@@ -1,0 +1,20 @@
+.order-type-item {
+  margin: 0;
+  margin-bottom: 35px;
+  padding: 0;
+  padding-left: 35px;
+  position: relative;
+
+  line-height: 24px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 25px;
+    left: 0;
+    top: 10px;
+    background-color: $danger;
+  }
+
+}

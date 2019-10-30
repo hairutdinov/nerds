@@ -1,0 +1,17 @@
+.about {
+
+  margin-top: 40px;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
+
+@import "about_left-block";
+@import "about_right-block";
+@import "orders-types-title";
+@import "orders-types-list";
+@import "order-type-item";
+@import "performance";

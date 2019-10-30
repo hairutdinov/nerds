@@ -1,0 +1,20 @@
+.performance {
+  thead {
+    tr {
+      th {
+        position: relative;
+        padding-right: 40px;
+        text-align: left;
+        padding-bottom: 25px;
+
+        &::after {
+          content: '%';
+          position: absolute;
+          font-size: 30px;
+          top: -8px;
+        }
+      }
+    }
+    padding-bottom: 30px;
+  }
+}

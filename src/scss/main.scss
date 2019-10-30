@@ -1,7 +1,10 @@
+@import "fonts";
+@import "colors";
+
 body {
   background-color: #fff;
   color: #000;
-  font: normal 400 normal 16px Roboto;
+  font: normal 400 normal 16px/24px Roboto;
 }
 
 img {
@@ -10,6 +13,15 @@ img {
 
 .h2 {
   font: normal 500 normal 55px/55px Roboto;
+}
+
+.h3 {
+  font: normal 500 normal 45px/45px Roboto;
+}
+
+.paragraph_color_gray {
+  color: $gunmetal;
+  font: 400 16px/24px Roboto;
 }
 
 .container {
@@ -33,8 +45,6 @@ img {
 }
 
 
-@import "fonts";
-@import "colors";
 /* COMPONENTS */
 @import "button/_";
 @import "c-border-bottom";
